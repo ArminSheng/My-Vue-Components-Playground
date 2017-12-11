@@ -5,7 +5,7 @@
       <i class="item-arrow mintui mintui-back"></i>
     </div>
     <el-collapse-transition>
-      <div class="item-body" ref="body" v-show="active">
+      <div class="item-body" v-show="active">
         <slot></slot>
       </div>
     </el-collapse-transition>
